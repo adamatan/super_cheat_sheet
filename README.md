@@ -11,7 +11,7 @@ zip
 awk
 ---
 
-Print file till a regex (`Full`) is matched.
+Print file till a regex ("`Full`") is matched.
 
 	BEGIN    { should_stop=0;              }
 	         { if (should_stop==0) 	print; }
