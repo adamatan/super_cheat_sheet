@@ -1,4 +1,7 @@
-super_cheat_sheet
-=================
+zip
+===
 
-My own polyglot cheat sheet.
+	zip file.zip file			# Compress
+	unzip file.zip				# Decompress
+
+
