@@ -31,5 +31,6 @@ OSX terminal
 wget
 ----
 
-	# Download entire site recursively. Don't forget to reconfigure "--domains". Credit: http://goo.gl/Mim5
+Download entire site recursively. Don't forget to reconfigure "--domains" with your site. Credit: [Linux Journal](http://www.linuxjournal.com/content/downloading-entire-web-site-wget)
+
 	wget --recursive --no-clobber --page-requisites --html-extension --convert-links --domains ruby.learncodethehardway.org --no-parent http://ruby.learncodethehardway.org/book
