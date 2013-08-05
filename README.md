@@ -23,3 +23,7 @@ grep
 	grep -v "pixel" filename		# InVerse grep (lines w/o "pixel")
 	grep -i "pixel" filename		# Case-Insensitive grep ("Pixel" also matched)
 
+OSX terminal
+------------
+
+	sips -Z 640 *.jpg	# Resize *.jpg 640 pixels, IN PLACE - CREATE A COPY FIRST. http://goo.gl/luWx4
