@@ -35,3 +35,8 @@ wget
 	wget --recursive --no-clobber --page-requisites --html-extension --convert-links --domains ruby.learncodethehardway.org --no-parent http://ruby.learncodethehardway.org/book
 
 
+xmllint
+-------
+
+	# Format XML
+	xmllint --format filename
