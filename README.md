@@ -45,3 +45,10 @@ svn
 ---
 
 	svn log -l 10			# Last 10 log entries
+	
+	
+json
+----
+
+	# Pretty-print (Credit: http://stackoverflow.com/questions/352098/how-to-pretty-print-json-from-the-command-line)
+	echo '{"foo": "lorem", "bar": "ipsum"}' | python -mjson.tool 
