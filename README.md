@@ -40,3 +40,8 @@ xmllint
 
 	# Format XML
 	xmllint --format filename
+	
+svn
+---
+
+	svn log -l 10			# Last 10 log entries
