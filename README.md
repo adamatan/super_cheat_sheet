@@ -54,4 +54,8 @@ Name it `svndiff`, and put it anywhere in the path. The following command should
 ## json
 
 	# Pretty-print (Credit: http://stackoverflow.com/questions/352098/how-to-pretty-print-json-from-the-command-line)
-	echo '{"foo": "lorem", "bar": "ipsum"}' | python -mjson.tool 
+	echo '{"foo": "lorem", "bar": "ipsum"}' | python -mjson.tool
+	
+## ssh
+
+	ssh -o BatchMode=yes -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no   # Batch mode, insecure
