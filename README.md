@@ -58,4 +58,4 @@ Name it `svndiff`, and put it anywhere in the path. The following command should
 	
 ## ssh
 
-	ssh -o BatchMode=yes -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no   # Batch mode, insecure
+	ssh -q -o BatchMode=yes -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no   # Batch mode, insecure
