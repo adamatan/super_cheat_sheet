@@ -59,3 +59,8 @@ Name it `svndiff`, and put it anywhere in the path. The following command should
 ## ssh
 
 	ssh -q -o BatchMode=yes -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no   # Batch mode, insecure
+	
+## tr
+	printf "a\nb\nc\n" | tr "\n" " "        # Convert newlines to spaces
+	printf "a       b     c" | tr -s " "    # Squeeze spaces (multiple spaces -> one space)
+
