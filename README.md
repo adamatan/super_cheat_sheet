@@ -1,4 +1,4 @@
-# My polyglot cheat sheet
+# Super cheat sheet 
 
 - [awk](#awk)
 - [find](#find)
