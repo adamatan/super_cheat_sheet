@@ -13,6 +13,10 @@ Print file till a regex ("`Full`") is matched.
 	BEGIN    { should_stop=0;              }
 	         { if (should_stop==0) 	print; }
 	/Full/   { should_stop=1;              }
+
+## find
+
+	find . -type d -depth 1		# Subirectories of .
 	
 ## grep
 
