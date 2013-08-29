@@ -1,20 +1,17 @@
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
-
-- [My polyglot cheat sheet](#my-polyglot-cheat-sheet)
-	- [awk](#awk)
-	- [find](#find)
-	- [grep](#grep)
-	- [json](#json)
-	- [OSX terminal](#osx-terminal)
-	- [ssh](#ssh)
-	- [svn](#svn)
-		- [GUI diff (Tested on OSX)](#gui-diff-tested-on-osx)
-	- [tr](#tr)
-	- [wget](#wget)
-	- [xmllint](#xmllint)
-	- [zip](#zip)
-
 # My polyglot cheat sheet
+
+- [awk](#awk)
+- [find](#find)
+- [grep](#grep)
+- [json](#json)
+- [OSX terminal](#osx-terminal)
+- [ssh](#ssh)
+- [svn](#svn)
+	- [GUI diff (Tested on OSX)](#gui-diff-tested-on-osx)
+- [tr](#tr)
+- [wget](#wget)
+- [xmllint](#xmllint)
+- [zip](#zip)
 
 ## awk
 
