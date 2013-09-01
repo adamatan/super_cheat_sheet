@@ -23,7 +23,8 @@ Print file till a regex ("`Full`") is matched.
 
 ## find
 
-	find . -type d -depth 1		# Subirectories of .
+	find . -type d -depth 1		# Direct subirectories of .
+	find -name ".classpath"		# Files and dirs whose name is EXACTLY ".classpath"
 	
 ## grep
 
