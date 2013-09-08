@@ -17,13 +17,13 @@
 
 Usage: `cat input_file | awk -f script.awk`.
 
-### Print file from a regex ("`Full`") match.
+#### Print file from a regex ("`Full`") match.
 
 	BEGIN    { should_stop=0;              }
 	         { if (should_stop==0) 	print; }
 	/Full/   { should_stop=1;              }
 
-### Print file between two regexes.
+#### Print file between two regexes.
 
 	BEGIN    { should_print=0;                      }
          	 { if (should_print==1)  print;         }
