@@ -19,14 +19,14 @@ Usage: `cat input_file | awk -f script.awk`.
 
 #### Print file starting from a regex match
 
-	BEGIN    { should_stop=0;              }
-	         { if (should_stop==0) 	print; }
-	/<blah>/   { should_stop=1;              }
+	BEGIN       { should_stop=0;             }
+	            { if (should_stop==0) print; }
+	/<creative/ { should_stop=1;             }
 
 #### Print file between two XML tags
 
-	BEGIN    	{ should_print=0;                      		}
-	         	{ if (should_print==1)  print;         		}
+	BEGIN           { should_print=0;                      		}
+	                { if (should_print==1)  print;         		}
 	/<creative/     { if (should_print==0) {should_print=1; print}  }  # No closing ">" - might have attributes!
 	/<\/creative>/  { should_print=-1                            	}
 
