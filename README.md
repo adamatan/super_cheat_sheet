@@ -23,7 +23,9 @@ Usage: `cat input_file | awk -f script.awk`.
 	            { if (should_stop==0) print; }
 	/<creative/ { should_stop=1;             }
 
-#### Print file between two XML tags
+#### Print file between two delimeters
+
+Prints the lines between the first occurance of the first delimeter and the first occurance of the second delimeter. For actual XML files, [xmllint](#xmllint) is better.
 
 	BEGIN           { should_print=0;                               }
 	                { if (should_print==1)  print;         	        }
@@ -85,6 +87,9 @@ Name it `svndiff`, and put it anywhere in the path. The following command should
 
 	# Format XML
 	xmllint --format filename
+	
+	# Print XPath tag
+	xmllint --xpath "//city" <file>
 	
 ## zip
 
