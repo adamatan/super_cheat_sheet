@@ -37,6 +37,14 @@ Prints the lines between the first occurance of the first delimeter and the firs
 	find . -type d -depth 1		# Direct subirectories of .
 	find -name ".classpath"		# Files and dirs whose name is EXACTLY ".classpath"
 	
+#### exec
+
+`exec` runs a command for each item found in `find`. 
+
+	# greps each file, even if its name starts with "--"
+        find  -type f -exec grep -H "http://feed.dp.yieldmanager.net/tools/pipesv2csv.php" '{}' \;
+	
+	
 ## grep
 
 	grep -v "pixel" filename		# InVerse grep (lines w/o "pixel")
