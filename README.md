@@ -1,6 +1,7 @@
 # Super cheat sheet 
 
 - [awk](#awk)
+- [bash](#bash)
 - [find](#find)
 - [grep](#grep)
 - [json](#json)
@@ -31,6 +32,10 @@ Prints the lines between the first occurance of the first delimeter and the firs
 	                { if (should_print==1)  print;         	        }
 	/<creative/     { if (should_print==0) {should_print=1; print}  }  # No closing ">" - might have attributes!
 	/<\/creative>/  { should_print=-1                            	}
+
+## BASH scripting
+
+Great [reference for operators](http://tldp.org/LDP/abs/html/refcards.html).
 
 ## find
 
