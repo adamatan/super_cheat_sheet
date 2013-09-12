@@ -99,6 +99,9 @@ Name it `svndiff`, and put it anywhere in the path. The following command should
 	# Print XPath tag
 	xmllint --xpath "//city" <file>
 	
+	# Validate XML with its XSD schema (--noout : we don't need to print the XML itself)
+	xmllint --noout --schema ProductConfiguration.xsd RedCar.xml
+	
 ## zip
 
 	zip file.zip file			# Compress
