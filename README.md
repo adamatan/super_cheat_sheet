@@ -70,8 +70,9 @@ Great [reference for operators](http://tldp.org/LDP/abs/html/refcards.html).
 	ssh -q -o BatchMode=yes -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no   # Batch mode, insecure
 
 ## svn
-
-	svn log -l 10			# Last 10 log entries
+	
+	svn propset svn:executable ON sync.py	# Make a file executable
+	svn log -l 10				# Last 10 log entries
 	
 ### GUI diff (Tested on OSX)
 
