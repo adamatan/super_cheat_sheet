@@ -94,8 +94,8 @@ Name it `svndiff`, and put it anywhere in the path. The following command should
 
 ## vim
 	
-	map <F2> :tabn<CR><Esc>		# F2 switches tabs
-	map <F3> :tabe			# F3 open filename in new tab
+	map <F2> :tabn<CR><Esc>     # F2 switches tabs
+	map <F3> :tabe              # F3 open filename in new tab
 
 ## wget
 
