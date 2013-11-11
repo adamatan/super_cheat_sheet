@@ -10,6 +10,7 @@
 - [svn](#svn)
 	- [GUI diff (Tested on OSX)](#gui-diff-tested-on-osx)
 - [tr](#tr)
+- [vim](#vim)
 - [wget](#wget)
 - [xmllint](#xmllint)
 - [zip](#zip)
@@ -90,6 +91,10 @@ Name it `svndiff`, and put it anywhere in the path. The following command should
 ## tr
 	printf "a\nb\nc\n" | tr "\n" " "        # Convert newlines to spaces
 	printf "a       b     c" | tr -s " "    # Squeeze spaces (multiple spaces -> one space)
+
+## vim
+	
+	:map <F2> :tabn<CR><Esc>		# F2 switches tabs
 
 ## wget
 
