@@ -6,6 +6,7 @@
 - [grep](#grep)
 - [json](#json)
 - [OSX terminal](#osx-terminal)
+- [parallel](#parallel)
 - [ssh](#ssh)
 - [svn](#svn)
 	- [GUI diff (Tested on OSX)](#gui-diff-tested-on-osx)
@@ -65,6 +66,11 @@ Great [reference for operators](http://tldp.org/LDP/abs/html/refcards.html).
 ## OSX terminal
 
 	sips -Z 640 *.jpg	# Resize *.jpg 640 pixels, IN PLACE - CREATE A COPY FIRST. http://goo.gl/luWx4
+
+## parallel
+
+	# Run script.sh for each lien of arguments in args.sh, show eta, at most 10 instances concurrently
+	cat args | parallel -P 10 --eta ./script.sh {} 
 
 ## ssh
 
