@@ -4,7 +4,7 @@
 - [bash](#bash)
 - [find](#find)
 - [grep](#grep)
-- [jar files](#jar files)
+- [jar files](#jar-files)
 - [json](#json)
 - [OSX terminal](#osx-terminal)
 - [parallel](#parallel)
