@@ -4,6 +4,7 @@
 - [bash](#bash)
 - [find](#find)
 - [grep](#grep)
+- [jar files](#jar files)
 - [json](#json)
 - [OSX terminal](#osx-terminal)
 - [parallel](#parallel)
@@ -56,7 +57,12 @@ Great [reference for operators](http://tldp.org/LDP/abs/html/refcards.html).
 
 	grep -v "pixel" filename		# InVerse grep (lines w/o "pixel")
 	grep -i "pixel" filename		# Case-Insensitive grep ("Pixel" also matched)
-	
+
+## jar files
+
+	# Print classes and methods in a jar file. Credit: http://goo.gl/4gDNe7 
+	export CLASSPATH=PATH_TO_JAR && jar tvf $CLASSPATH | awk '{print $8}' | grep class$ | sed 's/\.class$//' | xargs javap | grep -v "Compiled from"
+
 ## json
 
 	# Pretty-print (Credit: http://stackoverflow.com/questions/352098/how-to-pretty-print-json-from-the-command-line)
