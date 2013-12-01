@@ -60,7 +60,8 @@ Great [reference for operators](http://tldp.org/LDP/abs/html/refcards.html).
 
 ## jar files
 
-	# Print classes and methods in a jar file. Credit: http://goo.gl/4gDNe7 
+	# Print classes and methods in a jar file. 
+	# Credit: http://stackoverflow.com/questions/3248335/how-to-view-the-method-members-of-a-class-within-a-jar-file-thru-the-command-lin
 	export CLASSPATH=PATH_TO_JAR && jar tvf $CLASSPATH | awk '{print $8}' | grep class$ | sed 's/\.class$//' | xargs javap | grep -v "Compiled from"
 
 ## json
